@@ -1,0 +1,38 @@
+1).Research and provide three real-world applications where C programming is extensively used, such as in embedded systems, operating systems, or game development.
+
+=>C programming is a foundational language that is  used in  real-world applications due to its  performance, and low-level capabilities.
+
+1. Embedded Systems
+=>Example Applications: Microcontrollers
+=>C is popular in  systems because it provides low-level access to hardware, allowing  manipulation of memory and system resources.
+=>Real-World Example: Automotive control systems for managing engine functions, sensors, and displays in modern cars.
+
+2. Operating Systems
+=>Example Applications: Linux, Windows kernel.
+=>Operating systems require direct access to the hardware and  memory management, which is facilitated by C's low-level programming features.
+Real-World Example: Linux kernel, which is  provides a powerful open-source operating system that is used in a variety of devices, from smartphone.
+3. Game Development
+=>Example Applications: Game engines, high-performance 3D graphics.
+=>C allows for the development of resource  applications, such as 3D graphics engines.
+=>Real-World Example: The development of the original game engines like the many console games that require a high level of performance.
+
+
+2).Install a C compiler on your system and configure the IDE. Write your first program to print "Hello, World!" and run it.
+
+=>Install a C Compiler :
+•	Download and install MinGW to get the GCC compiler.
+•	Go to the MinGW website and download.
+•	After installation, add the bin folder (e.g., C:\MinGW\bin) to your System PATH:
+o	Right-click on This PC  → Properties → Advanced system settings → Environment Variables.
+o	Under System Variables, find Path and click Edit.
+o	Add C:\MinGW\bin to the path list, then click OK.
+
+=> Write your first program to print "Hello, World!"
+=>#include <stdio.h>
+int main()
+ {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+Output:= Hello, World!
